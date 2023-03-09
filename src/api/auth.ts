@@ -5,7 +5,7 @@ interface LoginForm {
     password: string,
 };
 interface User {
-    id: number,
+    uuid: string,
     username: string,
     nickname: string,
     school: string,
